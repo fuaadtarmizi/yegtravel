@@ -41,7 +41,7 @@ export default function Home() {
             <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><FaFacebookF className="text-white hover:text-slate-400 text-2xl mx-2"/></a>
           </div>
         </div> 
-      </div> 
+      </div>
       </section>
 
       {/* monitor view size */}

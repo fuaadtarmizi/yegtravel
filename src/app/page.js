@@ -7,7 +7,7 @@ import Slider from '@/components/Slider'
 
 export default function Home() {
   return (
-    <main className="h-screen w-full" style={{ backgroundImage: 'url("/bgyegtravel.svg")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+    <main className="h-full w-full" style={{ backgroundImage: 'url("/bgyegtravel.svg")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
       {/* phone view section */}
       <section className="h-screen lg:hidden flex flex-col ">
       <div className="p-6 lg:hidden items-center flex ">
@@ -52,7 +52,7 @@ export default function Home() {
             <span className="text-white font-bold text-2xl pr-1">YEG</span>
             <span className="text-lg border-white text-white border-2 px-1">TRAVEL</span>
           </div>
-          <div className="w-full flex justify-start items-center m-4 ml-10 space-x-28 px-10 ">
+          <div className="w-full flex justify-start items-center m-4 ml-10 space-x-20 px-10 ">
             <div className=""><h className="text-white">Home</h></div>
             <div className=""><h className="text-white">Destination</h></div>
             <div className=""><h className="text-white">Contact Us</h></div>
@@ -76,7 +76,6 @@ export default function Home() {
         </div>
       </section>
       <div className="lg:py-8"></div>
-
       <section className="hidden lg:block">
         <div className="grid grid-cols-1 lg:grid-cols-2 justify-center ">
           <div className="space-y-2 grid lg:ml-32 lg:w-2/3">
@@ -96,21 +95,8 @@ export default function Home() {
           
         </div>
       </section>
-      <section></section>
+      
 
-
-
-
-
-
-
-
-
-
-
-
-
-     
 
 
 
